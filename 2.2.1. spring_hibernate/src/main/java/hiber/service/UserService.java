@@ -10,5 +10,5 @@ public interface UserService {
     void add(User user);
 
     void getUserByCar(String s, int i);
-    List<User> listUsers();
+    List<User> getUsers();
 }
